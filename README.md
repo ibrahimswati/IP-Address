@@ -15,6 +15,4 @@ This application is running from Google Cloud engine so IP stack option 1 displa
 I tackled that by sending the IP address returned from Requests to IPStack to get IP address, & Geolocation.
 
 Stuff to add:
-1. Display MAC address of user
-2. Display device type by checking for default MAC address
-3. Integrate Google Maps to display the location using IPStacks location tool. 
+1. Integrate Google Maps to display the location using IPStacks location tool. 
