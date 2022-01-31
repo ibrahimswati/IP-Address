@@ -1,6 +1,6 @@
 # Python script to display IP address using IP stack, and Pythons REQUEST library
 
-To view please visit: <securemyprivacy.xyz> (This is a Google Cloud Engine application that has been mapped onto a custom domain)
+To view please visit: http://securemyprivacy.xyz (This is a Google Cloud Engine application that has been mapped onto a custom domain)
 
 This program consists of a basic python script using a web-framework Flask that returns an IP address using 2 techniques.
 
