@@ -2,7 +2,7 @@
 
 To view please visit: http://securemyprivacy.xyz (This is a Google Cloud Engine application that has been mapped onto a custom domain)
 
-This program consists of a basic python script using a web-framework Flask that returns an IP address using 2 techniques.
+This program consists of a basic python script using a web-framework Flask that renders a HTML page and returns an IP address using 2 techniques.
 
 1: Using defualt Python library "Requests" to see for what IP address was the HTTP request was sent for.
 
