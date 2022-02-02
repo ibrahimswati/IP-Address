@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Am I secure?</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+      <h1>HTTP (OSI Layer 7)</h1>
+      <p>IP passed in header is: {{ip}}</p>
+      <p>IP address passed to IPstack after removing remote address: {{ip_api}}</p>
+      <p>My IPstack data with header is: {{stack_ip}}, {{stack_city}}, {{stack_zip}}</p>
+      <p>My IPstack data with check is: {{stackip}}, {{stackcity}}, {{stackzip}}</p>
+
+    </body>
+    </html>
