@@ -2,6 +2,8 @@
 
 To view please visit: http://securemyprivacy.xyz (This is a Google Cloud Engine application that has been mapped onto a custom domain)
 
+Please use this API key to view data: 180b793d2a303dc892acf7c53b13d12c
+
 This program consists of a basic python script using a web-framework Flask that renders a HTML page and returns an IP address using 2 techniques.
 
 1: Using defualt Python library "Requests" to see for what IP address was the HTTP request was sent for.
