@@ -6,7 +6,27 @@ h1 {
     text-align: center;
     padding: 10px;
 }
+
 p {
     color: white;
-    padding: 1px;
+    font-family:monospace;
+    font-size: 17px;
+}
+
+footer {
+    position:fixed;
+    text-align: center;
+    bottom:0px;
+    font-size: 12px;
+    width:100%;
+    color: white;
+    font-family:monospace;
+}
+
+a:link{
+  color:grey;
+}
+
+img {
+
 }
