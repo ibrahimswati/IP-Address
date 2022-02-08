@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Am I secure?</title>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-    </head>
-    <body>
-    <center>
+<head>
+  <title>Am I secure?</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <center>
     <img src="{{url_for('static', filename='icon2.jpg')}}" width="250" height="166.66" /><br><br><br><br>
     <p>Welcome to Swati Corporation IP API login page. <br><br>
-      Please enter your API key to access:</p>
-    </center>
-    <form method="POST">
-    <center>
-    <input type="text" name="key">
-    <input type="submit" value="Submit">
-    </center>
+      Please enter your API key to access:</p><br>
+    <form name="form" onsubmit="return validateForm()" method="post">
+        <input type="password" name="key" id="key" minlength="32" maxlength="32" required><br><br><br>
+        <button class="button">Submit</button>
+      </center>
     </form>
     <footer>
       Copyright by Swati Corporation. All Rights Reserved.<br>
-        Developed by <a href="https://www.linkedin.com/in/ibrahimswati">Ibrahim Swati</a> @ Swati Corporation US
+      Developed by <a href="https://www.linkedin.com/in/ibrahimswati">Ibrahim Swati</a> @ Swati Corporation US
     </footer>
-
-    </body>
-    </html>
+    <script>
+    function validateForm(){
+      var regex = /\s/g;
+      var key = document.forms["form"]["key"].value;
+      if ( !key || key.match(regex)){
+        alert("Please enter a key");
+        return false;
+      }
+    }
+    </script>
+  </body>
+  </html>
