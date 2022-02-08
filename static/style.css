@@ -13,6 +13,23 @@ p {
     font-size: 17px;
 }
 
+.button {
+  width: 100px;
+  height: 20px;
+  border: none;
+  font-family: monospace;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#key{
+  width: 400px;
+  height: 20px
+}
+
 footer {
     position:fixed;
     text-align: center;
