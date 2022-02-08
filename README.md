@@ -6,7 +6,6 @@ Please use this API key to view data:
 
 IPStack key: 180b793d2a303dc892acf7c53b13d12c
 
-Map key: AIzaSyAhvBoHI5qDK7Dh84DMeG--o-TzOeSg2WI
 
 This program consists of a basic python script using a web-framework Flask that renders a HTML page and returns an IP address using 2 techniques.
 
