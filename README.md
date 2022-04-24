@@ -19,5 +19,8 @@ This application is running from Google Cloud engine so IP stack option 1 displa
 
 I tackled that by sending the IP address returned from Requests to IPStack to get IP address, & Geolocation.
 
+Added:
+1. Integrated Google Maps to display the location using IPStacks location tool. 
+
 Stuff to add:
-1. Integrate Google Maps to display the location using IPStacks location tool. 
+1. Add function to locate IP passed by user.
